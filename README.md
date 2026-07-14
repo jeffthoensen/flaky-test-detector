@@ -48,3 +48,7 @@ pytest tests/
 ```
 
 Unit tests for the aggregation and classification logic, no subprocess calls involved.
+
+---
+
+Built by [Jeff Thoensen](https://jeffthoensen.com), a Context-Driven QA Engineer focused on automation, API testing, and exploratory testing.
