@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>Flaky Demo Page</title></head>
+<body>
+  <button id="show-btn" onclick="reveal()">Reveal</button>
+  <div id="target" style="display:none;">Target Loaded</div>
+
+  <script>
+    function reveal() {
+      const delay = Math.random() * 100; // random 0-100ms delay, on purpose
+      setTimeout(() => {
+        document.getElementById('target').style.display = 'block';
+      }, delay);
+    }
+  </script>
+</body>
+</html>
